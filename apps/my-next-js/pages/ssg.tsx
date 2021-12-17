@@ -1,4 +1,5 @@
 import { GetStaticProps } from 'next';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 export default function TranslationsComponent(props: unknown) {
@@ -8,13 +9,13 @@ export default function TranslationsComponent(props: unknown) {
     <div>
       <h5>{locale}</h5>
 
-      {/* <Link href="/demo/trans-static" locale="es">
+      <Link href="/ssg" locale="es">
         <a style={{ marginLeft: '20px' }}>/ES</a>
       </Link>
 
-      <Link href="/demo/trans-static" locale="en">
+      <Link href="/ssg" locale="en">
         <a style={{ marginLeft: '20px' }}>/EN</a>
-      </Link> */}
+      </Link>
 
       <pre>{JSON.stringify(props, null, 4)}</pre>
 
