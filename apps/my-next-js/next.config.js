@@ -10,6 +10,11 @@ const nextConfig = {
     // See: https://github.com/gregberge/svgr
     svgr: false,
   },
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['pt', 'en', 'es'],
+    localeDetection: true
+  }
 };
 
 module.exports = withNx(nextConfig);
