@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "my-next-js": "apps/my-next-js",
+    "my-next-js-e2e": "apps/my-next-js-e2e"
+  }
+}
